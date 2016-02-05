@@ -1,11 +1,11 @@
 @font-face { 
 	font-family: Vazir; 
-	src: url('/fonts/vazir/Vazir.ttf'); 
+	src: url('assets/fonts/vazir/Vazir.ttf'); 
         
 }
 @font-face { 
 	font-family: VazirBold; 
-	src: url('fonts/vazir/Vazir-Bold.ttf'); 
+	src: url('assets/fonts/vazir/Vazir-Bold.ttf'); 
         
 } 
 
