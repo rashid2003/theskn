@@ -1,18 +1,18 @@
 @font-face {
   font-family: Vazir;
-  src: url('./fonts/Vazir/Vazir.eot');
-  src: url('./fonts/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/Vazir/Vazir.woff') format('woff'),
-       url('./fonts/Vazir/Vazir.ttf') format('truetype');
+  src: url('./fonts/vazir/Vazir.eot');
+  src: url('./fonts/vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/vazir/Vazir.woff') format('woff'),
+       url('./fonts/vazir/Vazir.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Vazir-Bold;
-  src: url('./fonts/Vazir/Vazir-Bold.eot');
-  src: url('./fonts/Vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-       url('./fonts/Vazir/Vazir-Bold.woff') format('woff'),
-       url('./fonts/Vazir/Vazir-Bold.ttf') format('truetype');
+  src: url('./fonts/vazir/Vazir-Bold.eot');
+  src: url('./fonts/vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/vazir/Vazir-Bold.woff') format('woff'),
+       url('./fonts/vazir/Vazir-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
