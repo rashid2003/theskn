@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Vazir;
+  src: url('./fonts/Vazir/Vazir.eot');
+  src: url('./fonts/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Vazir/Vazir.woff') format('woff'),
+       url('./fonts/Vazir/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir-Bold;
+  src: url('./fonts/Vazir/Vazir-Bold.eot');
+  src: url('./fonts/Vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Vazir/Vazir-Bold.woff') format('woff'),
+       url('./fonts/Vazir/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+.text-a
+{
+	color: black;
+	font-size: 44px;
+	font-family: "VazirBold", Mirza, Mono;
+}
+.text-b
+{
+	color: #DB5361;
+	font-size: 30px;
+	font-family: "VazirBold", Mirza, Mono;
+}
+.text-c
+{
+	color: #0000FF;
+	font-size: 20px;
+	font-family: "Vazir", Mirza, Mono;
+}
+.text-d
+{
+	color: #555555;
+	font-size: 18px;
+	font-family: "Vazir", Mirza, Mono;
+}
+.text-e
+{
+	color: white;
+	font-size: 24px;
+	font-family: "Vazir", Mirza, Mono;
+}
+
+body {
+	direction: rtl;
+}
