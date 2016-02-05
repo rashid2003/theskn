@@ -1,46 +1,25 @@
-@font-face { 
-	font-family: Vazir; 
-	src: url('../fonts/vazir/Vazir.ttf'); 
-        
-}
-@font-face { 
-	font-family: VazirBold; 
-	src: url('../fonts/vazir/Vazir-Bold.ttf'); 
-        
-} 
-
-.text-a
-{
-	color: black;
-	font-size: 44px;
-	font-family: "VazirBold", Mirza, Mono;
-}
-.text-b
-{
-	color: #DB5361;
-	font-size: 30px;
-	font-family: "VazirBold", Mirza, Mono;
-}
-.text-c
-{
-	color: #0000FF;
-	font-size: 20px;
-	font-family: "Vazir", Mirza, Mono;
-}
-.text-d
-{
-	color: #555555;
-	font-size: 18px;
-	font-family: "Vazir", Mirza, Mono;
-}
-.text-e
-{
-	color: white;
-	font-size: 24px;
-	font-family: "Vazir", Mirza, Mono;
+/* Include Custom Fonts */
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/vazir/Vazir.eot');
+  src: url('../fonts/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir/Vazir.woff') format('woff'),
+       url('../fonts/Vazir/Vazir.ttf') format('truetype');
+  font-weight: normal;
 }
 
+@font-face {
+  font-family: VazirBold;
+  src: url('../fonts/Vazir/Vazir-Bold.eot');
+  src: url('../fonts/Vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir/Vazir-Bold.woff') format('woff'),
+       url('../fonts/Vazir/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+/* Customizing my page style */
 body {
 	direction: rtl;
+	color: 000000;
 	font-family: "Vazir";
 }
