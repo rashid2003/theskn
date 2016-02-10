@@ -1,10 +1,14 @@
-/* Include Custom Fonts */
+/*
+  ========================================
+  Cusom fonts
+  ========================================
+*/
 @font-face {
   font-family: Vazir;
   src: url('../fonts/vazir/Vazir.eot');
   src: url('../fonts/vazir/Vazir.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vazir/Vazir.woff') format('woff'),
-       url('../fonts/vazir/Vazir.ttf') format('truetype');
+	   url('../fonts/vazir/Vazir.woff') format('woff'),
+	   url('../fonts/vazir/Vazir.ttf') format('truetype');
   font-weight: normal;
 }
 
@@ -12,14 +16,358 @@
   font-family: VazirBold;
   src: url('../fonts/vazir/Vazir-Bold.eot');
   src: url('../fonts/vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/vazir/Vazir-Bold.woff') format('woff'),
-       url('../fonts/vazir/Vazir-Bold.ttf') format('truetype');
+	   url('../fonts/vazir/Vazir-Bold.woff') format('woff'),
+	   url('../fonts/vazir/Vazir-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
-/* Customizing my page style */
-body {
-	direction: rtl;
-	color: #000000;
-	font-family: "Vazir";
+
+/*
+  ========================================
+  Reset CSS
+  ========================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Custom style
+  ========================================
+*/
+body {
+
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+
+/*
+  ========================================
+  Attack and detachable features
+  ========================================
+*/
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1350px;
+}
+
+.rtl-direction {
+  direction: rtl;
+}
+
+.ltr-direction {
+  direction: ltr;
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 256);
+}
+
+.font-color-white {
+  color: rgba(256, 256, 256, 256);
+}
+
+.font-color-0c0 {
+  color: rgba(0, 204, 0, 256);
+}
+
+.font-family-vazir {
+  font-family: "Vazir", Mono;
+}
+
+.font-family-consolas {
+  font-family: Consolas, monaco, monospace;
+}
+
+.side-bar {
+  float: right;
+  margin: 0 1.5%;
+  width: 25%;
+}
+
+.context-main {
+  float: left;
+  margin: 0 1.5%;
+  width: 68%;
+  line-height: 1.35em;
+}
+
+.none-text-decoration {
+  color: rgba(0, 204, 0, 256);
+  text-decoration: none;
+
+}
+
+.header {
+  text-align: center;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.tagline {
+  
+}
+
+.logo-place-holder {
+  float: right;
+  margin: 0 1.5%;
+  width: 25%;
+  border-top: 4px solid #648880;
+  font-size: 48px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+}
+
+.header-title {
+  float: left;
+  margin: 0 1.5%;
+  width: 68%;
+  border-bottom: 1px solid rgba(0, 204, 0, 256);
+}
+
+.header-main {
+  margin-bottom: 8px;
+  font-weight: bolder;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.main {
+  min-height: 460px;
+}
+
+.footer {
+  clear: both;
+}
+
+.navigation-list {
+  list-style-type: square;
+  padding-left: 12px;
+}
+
+.navigation-list a {
+  display: block;
+  padding: 8px 0 8px 16px;
+}
+
+.navigation {
+  border-bottom: 1px solid rgba(0, 204, 0, 256);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.active {
+  font-weight: bolder;
+  text-decoration: line-through;
+}
+
+.infography {
+  text-align: justify;
+  border-bottom: 1px solid rgba(0, 204, 0, 256);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.3em;
+}
+
+.profiles {
+  padding-top: 8px;
+  padding-bottom: 16px;
+
+}
+
+.profiles-list {
+  list-style-type: square;
+  padding-left: 12px;
+}
+
+.profiles-list a {
+  display: block;
+  padding: 8px 0 8px 16px;
+}
+
+.profiles-list a:link, .profiles-list a:visited,
+.navigation-list a:link, .navigation-list a:visited {
+  color: rgba(0, 204, 0, 256);
+  text-decoration: none;
+}
+
+.profiles-list a:hover, .profiles-list a:active,
+.navigation-list a:hover, .navigation-list a:active {
+  color: rgba(256, 256, 256, 256);
+  background-color: rgba(0, 165, 0, 256);
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 256);
+}
+
+.footer-place-holder {
+  float: right;
+  margin: 0 1.5%;
+  width: 25%;
+  border-bottom: 4px solid #648880;
+  font-size: 48px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+}
+
+.footer-content {
+  float: left;
+  margin: 0 1.5%;
+  width: 68%;
+  border-top: 1px solid rgba(0, 204, 0, 256);
+  padding-top: 22px;
+  text-align: center;
+}
+
+.license-text {
+  text-align: center;
+  direction: ltr;
+  padding-top: 64px;
+}
+
+.license-text a:link, .license-text a:visited,
+.license-text a:hover, .license-text a:active {
+  color: rgba(0, 204, 0, 256);
+}
+
+.footer-content a:link, .footer-content a:visited{
+  color: rgba(0, 204, 0, 256);
+  text-decoration: none;
+}
+
+.footer-content a:hover, .footer-content a:active {
+  color: rgba(0, 204, 0, 256);
+  text-decoration: underline;
+  }
+
+.quotation {
+  background-color: rgba(0, 4, 12, 256);
+  border-right: 10px solid rgba(0, 204, 0, 256);
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  display: inline-block;
+}
+
+.quote-cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+ 
+.quote-cite:before {
+  content: "\2014 \2009";
+}
+
+.warning {
+  background-color: rgba(0, 4, 12, 256);
+  border-right: 10px solid rgba(256, 204, 0, 256);
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  display: inline-block;
+}
+
