@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html lang="fa">
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+
+        <section class="container main group">
+
+            <!-- side-bar #area -->
+                {% include sidebar.html %}
+            <!-- end of side-bar area -->
+
+            <!-- Main context #area -->
+            <section class="container context-main">                
+                {{ content }}
+            </section>
+            <!-- end of main context area -->
+
+        </section>
+
+        {% include footer.html %}
+
+        {% include codetags.html %}
+
+    </body>
+
+</html>
