@@ -3,7 +3,7 @@ title: "پیغام خطای 0x12F"
 motto: "نوشته شده توسط کیانوش نقوی"
 author: Kianoosh Naghavi
 email: naghavi.kianoosh@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://theskn.github.io" # the subpath of your site, e.g. /blog
 url: "http://blog.kianooshnaghavi.com" # the base hostname & protocol for your site
 keywords: ""
 copyright: "Commons Attribution 4.0 International"
