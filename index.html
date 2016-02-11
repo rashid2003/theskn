@@ -1,3 +1,14 @@
 ---
 layout: default
 ---
+
+<h2 class="page-heading">❖ &nbsp; همه‌ی نوشته‌ها</h2>
+
+<ul id="post-list">
+{% for post in site.posts %}
+  <li>
+    <span class="post-meta list-meta-col"><span class="date">{{ post.date | jdate: "%A %d %b %Y" | habify }}</span></span>
+    <span><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></span>
+  </li>
+{% endfor %}
+</ul> 
