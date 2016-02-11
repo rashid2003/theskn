@@ -1,0 +1,25 @@
+<aside class="container side-bar">
+    <!-- navigation area -->
+    <nav class="navigation">
+        <ul class="menu">
+            <li class="navigation-list active"><a href="{{ site.baseurl | urljoin: '/' }}">خانه</a></li>
+            <li class="navigation-list"><a href="{{ site.baseurl | urljoin: 'FAQ/index.html' }}">سوالات متداول</a></li>
+        </ul>
+    </nav>
+    <!-- end of navigation area -->
+
+    <!-- info area -->
+    <div class="infography">
+        <p>{{ site.infography }}</p>
+    </div>
+    <!-- end of info area -->
+
+    <!-- profiles link area -->
+    <div class="profiles">
+        <ul class="menu">
+            <li class="profiles-list"><a href="https://twitter.com/{{ site.twitter_username }}" target="blanck">من در توییتر</a></li>
+            <li class="profiles-list"><a href="https://github.com/{{ site.github_username }}" target="blanck">من در گیت هاب</a></li>
+        </ul>
+    </div>
+    <!-- end of profiles link area -->
+</aside>
