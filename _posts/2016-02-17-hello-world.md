@@ -7,7 +7,7 @@ date: 2016-02-17 14:03:00 +0330
 published: true
 summary: اولین پست منتشر شده در وبلاگ جدیدم.
 excerpt_separator: <!--more--> 
-uuid: #generate one @ https://www.uuidgenerator.net/version4
+uuid: cd9dabc8-8fed-47e9-9152-5d821c80c70b
 comments: true
 series: 
 description:
