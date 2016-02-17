@@ -1,0 +1,38 @@
+---
+layout: default
+title: دسته بندی‌ها
+---
+
+<div class="rtl-direction"> 
+
+  {% assign categories = site.categories %}
+  <p>تمامی دسته‌ها:</p>
+  {% for category in categories %}
+    <span class="site-tag">
+    <a href="#{{ category | first | slugify }}">
+      {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }})
+    </a>
+    </span>
+  {% endfor %}
+
+</div>
+
+<br></br>
+
+<div class="rtl-direction tags-list">
+
+  {% for category in categories %}
+    <div class="tags-item">
+      <a name="{{ category[0] }}"></a><h2 class="tag-list-title">{{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
+      {% assign sorted_posts = site.posts | sort: 'title' %}
+      {% for post in sorted_posts %}
+        {%if post.categories contains category[0]%}
+
+          <h3 class="tag-list-item"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} <span class="post-date">- {{ post.date |  date: "%B %e, %Y" }}</span></a></h3>
+
+        {%endif%}
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+</div>

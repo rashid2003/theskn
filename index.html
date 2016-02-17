@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
+<div class="rtl-direction">
+    <h2 class="page-heading">❖ &nbsp; همه‌ی نوشته‌ها</h2>
 
-<h2 class="page-heading">❖ &nbsp; همه‌ی نوشته‌ها</h2>
-
-<ul class="post-list">
-{% for post in site.posts %}
-  <li>
-    <span class="post-meta list-meta-col"><span class="date">{{ post.date | date: '%B %d, %Y' }}</span></span>
-    <span><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></span>
-  </li>
-{% endfor %}
-</ul> 
+    <ul class="posts">  
+        {% for post in site.posts %}  
+           <li class="list-meta">  
+               <span class="post-meta"><span class="post-date ltr-direction">{{ post.date | date: '%Y, %B, %d' }}</span> &raquo;</span>
+               <span class="post-list-meta"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+           </li>  
+        {% endfor %}  
+    </ul>
+</div>

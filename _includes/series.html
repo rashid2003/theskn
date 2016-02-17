@@ -1,0 +1,33 @@
+{% if page.series %}
+    {% assign count = '0' %}
+    {% assign idx = '0' %}
+    {% for post in site.posts reversed %}
+      {% if post.series == page.series %}
+          {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+          {% if post.url == page.url %}
+              {% capture idx %}{{count}}{% endcapture %}
+          {% endif %}
+      {% endif %}
+    {% endfor %}
+
+<div class="ltr-direction">
+    <div class="panel series-note">
+        <p class="rtl-direction">این نوشته قسمت <strong>شماره {{ idx }}</strong> از <strong>{{ count }} شماره</strong> منتشر شده در سری <strong>"{{ page.series }}"</strong> است.</p>
+        <ul class="rtl-direction">
+            {% assign count = '0' %}
+            {% for post in site.posts reversed %}
+                {% if post.series == page.series %}
+                    {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+                    <li class="rtl-direction">شماره {{ count }} - 
+                        {% if page.url == post.url %}
+                            قسمت فعلی
+                        {% else %}
+                            <a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a>
+                        {% endif %}
+                    </li>
+                    {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}

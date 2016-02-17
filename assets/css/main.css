@@ -3,6 +3,7 @@
   Cusom fonts
   ========================================
 */
+
 @font-face {
   font-family: Vazir;
   src: url('../fonts/vazir/Vazir.eot');
@@ -20,7 +21,6 @@
 	   url('../fonts/vazir/Vazir-Bold.ttf') format('truetype');
   font-weight: bold;
 }
-
 
 /*
   ========================================
@@ -109,7 +109,7 @@ table {
 
 /*
   ========================================
-  Custom style
+  body Custom style
   ========================================
 */
 body {
@@ -123,16 +123,17 @@ body {
   ========================================
 */
 
-h1, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
 
 /*
   ========================================
-  Attack and detachable features
+  Attachable and detachable features
   ========================================
 */
+
 .container {
   margin: 0 auto;
   padding-left: 30px;
@@ -149,15 +150,15 @@ h1, h3, h4, h5, p {
 }
 
 .bg-color {
-  background-color: rgba(0, 0, 0, 256);
+  background-color: #000;
 }
 
 .font-color-white {
-  color: rgba(256, 256, 256, 256);
+  color: #FFF;
 }
 
 .font-color-0c0 {
-  color: rgba(0, 204, 0, 256);
+  color: #00CC00;
 }
 
 .font-family-vazir {
@@ -168,66 +169,111 @@ h1, h3, h4, h5, p {
   font-family: Consolas, monaco, monospace;
 }
 
+.none-text-decoration {
+  color: #00CC00;
+  text-decoration: none;
+
+}
+
+.none-text-decoration-none-color{
+  text-decoration: none;
+}
+
+.underline-border {
+
+}
+
+.underline-border a:link, .underline-border a:visited, 
+.underline-border a:hover, .underline-border a:active {
+  border-bottom: 1px solid;
+}
+
+.underline-border-dotted a:link, .underline-border-dotted a:visited, 
+.underline-border-dotted a:hover, .underline-border-dotted a:active {
+  border-bottom: 1px dotted;
+}
+
+.highlight-text {
+  color: #CCCCCC;
+  background-color: #008000;
+  padding-top: 2px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  margin: 2px;
+}
+
+.highlight-text a:link, .highlight-text a:visited, 
+.highlight-text a:hover, .highlight-text a:active {
+  border-bottom: 1px dotted;
+}
+
+.small-font-size {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.foot-note-reference {
+  font-weight: 300;
+  font-size: 12px;
+  color: #CCCCCC;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  margin-top: 2px;
+  margin-right: 2px; 
+  margin-bottom: 2px;
+  margin-left: 8px;
+  border-bottom: 1px dotted;
+}
+
+.foot-note {
+  font-weight: 300;
+  font-size: 13px;
+  color: #00CC00;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  margin: 2px;
+}
+
+/*
+  ========================================
+  Main page section
+  ========================================
+*/
+
+.main {
+  min-height: 460px;
+}
+
+/*
+  ========================================
+  Side bar
+  ========================================
+*/
+
 .side-bar {
   float: right;
   margin: 0 1.5%;
   width: 25%;
 }
 
-.context-main {
-  float: left;
-  margin: 0 1.5%;
-  width: 68%;
-  line-height: 1.35em;
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #000;
 }
 
-.none-text-decoration {
-  color: rgba(0, 204, 0, 256);
-  text-decoration: none;
-
-}
-
-.header {
-  text-align: center;
-  height: 100px;
-  margin-top: 20px;
-}
-
-.tagline {
-  
-}
-
-.logo-place-holder {
-  float: right;
-  margin: 0 1.5%;
-  width: 25%;
-  border-top: 4px solid #648880;
-  font-size: 48px;
-  line-height: 44px;
-  padding: 40px 0 22px 0;
-}
-
-.header-title {
-  float: left;
-  margin: 0 1.5%;
-  width: 68%;
-  border-bottom: 1px solid rgba(0, 204, 0, 256);
-}
-
-.header-main {
-  margin-bottom: 8px;
-  font-weight: bolder;
-  font-weight: 900;
-  font-size: 36px;
-}
-
-.main {
-  min-height: 460px;
-}
-
-.footer {
-  clear: both;
-}
+/*
+  ========================================
+  Navigation, Profile lists - About
+  ========================================
+*/
 
 .navigation-list {
   list-style-type: square;
@@ -240,7 +286,7 @@ h1, h3, h4, h5, p {
 }
 
 .navigation {
-  border-bottom: 1px solid rgba(0, 204, 0, 256);
+  border-bottom: 1px solid #00CC00;
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -252,7 +298,7 @@ h1, h3, h4, h5, p {
 
 .about {
   text-align: justify;
-  border-bottom: 1px solid rgba(0, 204, 0, 256);
+  border-bottom: 1px solid #00CC00;
   padding-top: 16px;
   padding-bottom: 16px;
   line-height: 1.3em;
@@ -276,22 +322,77 @@ h1, h3, h4, h5, p {
 
 .profiles-list a:link, .profiles-list a:visited,
 .navigation-list a:link, .navigation-list a:visited {
-  color: rgba(0, 204, 0, 256);
+  color: #00CC00;
   text-decoration: none;
 }
 
 .profiles-list a:hover, .profiles-list a:active,
 .navigation-list a:hover, .navigation-list a:active {
-  color: rgba(256, 256, 256, 256);
-  background-color: rgba(0, 165, 0, 256);
+  color: #FFF;
+  background-color: #00A500
 }
 
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: rgba(0, 0, 0, 256);
+/*
+  ========================================
+  Main Context
+  ========================================
+*/
+
+.context-main {
+  float: left;
+  margin: 0 1.5%;
+  width: 68%;
+  line-height: 1.35em;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.header {
+  text-align: center;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.header-main {
+  margin-bottom: 8px;
+  font-weight: bolder;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.tagline {
+  
+}
+
+.logo-place-holder {
+  float: right;
+  margin: 0 1.5%;
+  width: 25%;
+  border-top: 4px solid #648880;
+  font-size: 48px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+}
+
+.header-title {
+  float: left;
+  margin: 0 1.5%;
+  width: 68%;
+  border-bottom: 1px solid #00CC00;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  clear: both;
 }
 
 .footer-place-holder {
@@ -308,10 +409,26 @@ h1, h3, h4, h5, p {
   float: left;
   margin: 0 1.5%;
   width: 68%;
-  border-top: 1px solid rgba(0, 204, 0, 256);
+  border-top: 1px solid #00CC00;
   padding-top: 22px;
   text-align: center;
 }
+
+.footer-content a:link, .footer-content a:visited{
+  color: #00CC00;
+  text-decoration: none;
+}
+
+.footer-content a:hover, .footer-content a:active {
+  color: #00CC00;
+  border-bottom: 1px solid #00CC00;
+}
+
+/*
+  ========================================
+  LiCENSE
+  ========================================
+*/
 
 .license-text {
   text-align: center;
@@ -321,28 +438,24 @@ h1, h3, h4, h5, p {
 
 .license-text a:link, .license-text a:visited,
 .license-text a:hover, .license-text a:active {
-  color: rgba(0, 204, 0, 256);
+  color: #00CC00;
 }
 
-.footer-content a:link, .footer-content a:visited{
-  color: rgba(0, 204, 0, 256);
-  text-decoration: none;
-}
-
-.footer-content a:hover, .footer-content a:active {
-  color: rgba(0, 204, 0, 256);
-  text-decoration: underline;
-  }
+/*
+  ========================================
+  Quote - Warning Box
+  ========================================
+*/
 
 .quotation {
-  background-color: rgba(0, 4, 12, 256);
-  border-right: 10px solid rgba(0, 204, 0, 256);
+  background-color: #00040C;
+  border-right: 10px solid #00CC00;
   font-size: 18px;
   font-style: italic;
   width: 500px;
   margin: 0.25em 0;
   padding: 0.25em 40px;
-  line-height: 1.45;
+  line-height: 1.45em;
   position: relative;
   display: inline-block;
 }
@@ -359,22 +472,34 @@ h1, h3, h4, h5, p {
 }
 
 .warning {
-  background-color: rgba(0, 4, 12, 256);
-  border-right: 10px solid rgba(256, 204, 0, 256);
+  background-color: #00040C;
+  border-right: 10px solid #FFCC00;
   font-size: 18px;
   font-style: italic;
   width: 500px;
   margin: 0.25em 0;
   padding: 0.25em 40px;
-  line-height: 1.45;
+  line-height: 1.45em;
   position: relative;
   display: inline-block;
 }
 
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
 .button {
-  border: 1px solid rgba(0, 204, 0, 256);
-  background-color: rgba(0, 0, 0, 256);
+  border: 1px solid #00CC00;
+  background-color: #000;
 }
+
+/*
+  ========================================
+  Posts
+  ========================================
+*/
 
 .post {
 
@@ -385,15 +510,67 @@ h1, h3, h4, h5, p {
 }
 
 .post-header {
-
+  padding-bottom: 16px;
+  color: #008000;
+  border-bottom: 1px solid #558000;
+  margin-bottom: 16px;
 }
 
 .post-title {
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 8px;
+}
 
+.blog-post-title {
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.blog-post-title a:link, .blog-post-title a:visited,
+.blog-post-title a:hover, .blog-post-title a:active {
+  color: #008000;
+  text-decoration: none;
+}
+
+.blog-post-tags {
+  color: #CCCCCC;
+  margin-bottom: 4px;
+}
+
+.blog-post-tags a:link, .blog-post-tags a:visited, 
+.blog-post-tags a:hover, .blog-post-tags a:active {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.blog-post-categories {
+  color: #CCCCCC;
+  margin-bottom: 4px;
+}
+
+.blog-post-categories a:link, .blog-post-categories a:visited, 
+.blog-post-categories a:hover, .blog-post-categories a:active {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.blog-post-date {
+  color: #CCCCCC;
+  margin-bottom: 4px;
 }
 
 .post-content {
+  text-align: justify;
+  line-height: 1.40em;
+}
 
+.post-content a:link, .post-content a:visited, 
+.post-content a:hover, .post-content a:active {
+  color: #CCCCCC;
+  text-decoration: none;
 }
 
 .post-list {
@@ -401,37 +578,145 @@ h1, h3, h4, h5, p {
 }
 
 .post-meta {
+  text-decoration: none;
+}
 
+.post-list-meta a:link, .post-list-meta a:visited,
+.post-list-meta a:hover, .post-list-meta a:active {
+  color: #00CC00;
+  text-decoration: none;
 }
 
 .post-tags {
 
 }
 
-.list-meta-col {
-
+.post-inline-title {
+  font-size: 36px;
+  color: #CCCCCC;
 }
+
+/*
+  ========================================
+  adjacent-post - <!-- footer content
+  ========================================
+*/
+
+.adjacent-post {
+  border-top: 1px solid #558000;
+  padding-top: 8px; 
+}
+
+.adjacent-post a:link, .adjacent-post a:visited,
+.adjacent-post a:hover, .adjacent-post a:active {
+  color: #008000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*
+  ========================================
+  Pages
+  ========================================
+*/
 
 .page-heading {
-
+  font-weight: bolder;
+  font-size: 25px;
+  padding-bottom: 16px;
+  color: #008000;
+  border-bottom: 1px solid #558000;
 }
+
+.page-post-meta {
+  margin-right: 45px;
+}
+
+/*
+  ========================================
+  Misc: metas dates;
+  ========================================
+*/
+
+.list-meta {
+  padding: 4px 2px;
+}
+
+.post-date {
+  color: #CCCCCC;
+}
+
+/*
+  ========================================
+  tags
+  ========================================
+*/
 
 .tag {
 
 }
 
-.tag-page {
-
+.tags-list {
+  margin-bottom: 36px;
 }
 
-.tag-cloud {
-
+.tag-list-item {
+  margin-bottom: 4px;
 }
 
-.icon-tags {
-
+.tags-list a:link, .tags-list a:visited{
+  color: #00CC00;
+  text-decoration: none;
 }
 
-.date {
+.tags-list a:hover, .tags-list a:active {
+  color: #00CC00;
+  border-bottom: 1px solid #00CC00;
+}
 
+.tag-list-title {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.tags-item {
+  margin-bottom: 49px;
+}
+
+.site-tag a:link, .site-tag a:visited{
+  color: #00CC00;
+  text-decoration: none;
+}
+
+.site-tag a:hover, .site-tag a:active {
+  color: #00CC00;
+  border-bottom: 1px solid #00CC00;
+}
+
+/*
+  ========================================
+  Panels
+  ========================================
+*/
+
+.panel {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #000;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px #000;
+  box-shadow: 0 1px 1px #000;
+}
+
+/*
+  ========================================
+  Series
+  ========================================
+*/
+
+.series-note a:link, .series-note a:visited,
+.series-note a:active, .series-note a:hover {
+  color: #CCCCCC;
+  text-decoration: none;
 }

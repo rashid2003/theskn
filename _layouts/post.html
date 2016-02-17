@@ -3,34 +3,56 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta"><span class="date">{{ page.date | jdate: "%A %d %b %Y" | habify}}</span></p>
+  <header class="rtl-direction post-header">
+    <h2 class="blog-post-title"><a href="{{ page.url }}" rel="bookmark" title="Permanent Link to {{ page.title }}">❖ &nbsp; {{ page.title }}</a></h2>
+    <small><span>
+      <span class="blog-post-date"><span class="font-color-0c0">تازیخ انتشار: </span>{{ page.date | date: '%Y, %B, %d' }}</span> | 
+      <span class="blog-post-tags underline-border"><span class="font-color-0c0">برچسب‌ها: </span>{% for tag in page.tags %}{% include tags.html %}{% endfor %}</span> | 
+      <span class="blog-post-categories underline-border"><span class="font-color-0c0">دسته‌ها: </span>{% for category in page.categories %}{% include categories.html %}{% endfor %}</span>
+    </span></small>
   </header>
 
-  <article class="post-content">
+  {% include series.html %}
+  <article class="rtl-direction post-content underline-border-dotted">
+
     {{ content }}
+    <p></p>
   </article>
-  
 
-  <small id="post-tags">
-    {% for tag in page.tags %}
-    <i class="icon-tags"></i>
-    <a rel="tag" href="{{ tag | tag_url  }}">{{tag}}</a> &nbsp;
-    {% endfor %}
-  </small>
-
-  <div style="border-top:1px solid rgba(0, 204, 0, 256);">
+  <div class="adjacent-post">
     <p>
       {% if page.next %}
-      <a href="{{ site.baseurl | urljoin: page.next.url }}" style="float: left"> {{ page.next.title }} >> </a>
+      <a href="{{ site.baseurl }}{{ page.next.url }}" style="float: left">{{ page.next.title }} >> </a>
       {% endif %}
 
       {% if page.previous %}
-      <a href="{{ site.baseurl | urljoin: page.previous.url }}" style="margin-right:0px;">&#60&#60	 {{ page.previous.title }}</a>
+      <a href="{{ site.baseurl }}{{ page.previous.url }}" style="margin-right:0px;">&#60&#60 {{ page.previous.title }}</a>
       {% endif %}
     </p>
   </div>
+  
+    <!-- Add Disqus comments. -->
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+       */
+      /*
+      var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() {  // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          
+          s.src = '//drnegzi.disqus.com/embed.js';
+          
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
-  {% include disqus.html %}
 </div>
