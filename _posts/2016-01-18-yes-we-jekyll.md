@@ -3,7 +3,7 @@ layout: post
 title: بله، ما از جکیل استفاده می‌کنیم.
 category: [عمومی]
 tags: [همومی, جکیل]
-date: 2016-01-18 01:50:00 +0330
+date: 2016-02-18 01:50:00 +0330
 published: true
 comments:
 series:
