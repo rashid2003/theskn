@@ -11,7 +11,7 @@ title: برچسب‌ها
     <span class="site-tag">
     <a href="#{{ tag | first | slugify }}">
       {{ tag[0] | replace:'-', ' ' }}
-    </a> - 
+    </a>{% if forloop.last != true %} - {% endif %}
     </span>
   {% endfor %}
 
@@ -28,7 +28,7 @@ title: برچسب‌ها
       {% for post in sorted_posts %}
         {%if post.tags contains tag[0]%}
 
-          <h3 class="tag-list-item"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} <span class="post-date">- {{ post.date |  date: "%B %e, %Y" }}</span></a></h3>
+          <h3 class="tag-list-item"># <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }} <span class="post-date">- {{ post.date |  date: "%B %e, %Y" }}</span></a></h3>
 
         {%endif%}
       {% endfor %}
