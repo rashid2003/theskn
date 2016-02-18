@@ -10,7 +10,7 @@ title: برچسب‌ها
     {% for tag in tags %}
     <span class="site-tag">
     <a href="#{{ tag | first | slugify }}">
-      {{ tag[0] | replace:'-', ' ' }}
+      {{ tag[0] | replace:'-', ' ' }} - 
     </a>
     </span>
   {% endfor %}
