@@ -527,6 +527,7 @@ h1, h2, h3, h4, h5, p {
   font-size: 25px;
   padding-bottom: 8px;
   margin-bottom: 8px;
+  line-height: 1.4
 }
 
 .blog-post-title a:link, .blog-post-title a:visited,
@@ -594,6 +595,8 @@ h1, h2, h3, h4, h5, p {
 .post-inline-title {
   font-size: 36px;
   color: #CCCCCC;
+  padding-bottom: 25px;
+  padding-top: 8px;
 }
 
 /*
