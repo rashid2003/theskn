@@ -196,7 +196,6 @@ h1, h2, h3, h4, h5, p {
 .highlight-text {
   color: #CCCCCC;
   background-color: #008000;
-  padding-top: 2px;
   padding-right: 8px;
   padding-bottom: 2px;
   padding-left: 8px;
@@ -242,6 +241,12 @@ h1, h2, h3, h4, h5, p {
   padding-bottom: 2px;
   padding-left: 8px;
   margin: 2px;
+}
+
+.foot-note-header {
+  margin-bottom: 8px;
+  font-size: x-large;
+  padding-bottom: 8px;
 }
 
 /*
@@ -572,7 +577,7 @@ h1, h2, h3, h4, h5, p {
 
 .post-content {
   text-align: justify;
-  line-height: 1.40em;
+  line-height: 1.70em;
 }
 
 .post-content a:link, .post-content a:visited, 
