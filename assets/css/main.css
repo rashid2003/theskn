@@ -175,6 +175,10 @@ h1, h2, h3, h4, h5, p {
 
 }
 
+.margin-bottom-16px {
+  margin-bottom: 16px;
+}
+
 .none-text-decoration-none-color{
   text-decoration: none;
 }
@@ -247,6 +251,30 @@ h1, h2, h3, h4, h5, p {
   margin-bottom: 8px;
   font-size: x-large;
   padding-bottom: 8px;
+}
+
+.top-level-list {
+
+}
+
+.sub-level-list {
+  padding-left: 32px;
+}
+
+.list-style-type-persian {
+  list-style-type: persian;
+}
+
+.list-style-type-circle {
+  list-style-type: circle;
+}
+
+.list-style-type-square {
+  list-style-type: square;
+}
+
+.list-style-type-disc {
+  list-style-type: disc;
 }
 
 /*
