@@ -2,7 +2,7 @@
 layout: post
 title: مشاهده فایل‌های تصویری با Photo Viewer در Windows 10
 category: [عمومی]
-tags: [عمومی, windows 10 tweak]
+tags: [عمومی, Windows 10 tweak]
 date: 2016-03-30 18:49:00 +0330
 published: true
 comments: true
