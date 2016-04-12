@@ -277,6 +277,28 @@ h1, h2, h3, h4, h5, p {
   list-style-type: disc;
 }
 
+.number-box {
+  border-radius: 0%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background: #00CC00;
+  color: #FFF;
+  float: left;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 5.5px;
+  margin: 5px 15px 0px 0px;
+}
+
+.number-box:after,
+.number-box:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /*
   ========================================
   Main page section
