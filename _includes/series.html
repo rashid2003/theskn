@@ -12,7 +12,7 @@
 
 <div class="ltr-direction">
     <div class="panel series-note">
-        <p class="rtl-direction">این نوشته قسمت <strong>شماره <span class="font-color-white">{{ idx }}</span></strong> از <strong><span class="font-color-white">{{ count }}</span> شماره</strong> منتشر شده در سری <strong><span class="font-color-white">{{ page.series }}"</span></strong> است.</p>
+        <p class="rtl-direction">این نوشته قسمت <strong>شماره <span class="font-color-white">{{ idx }}</span></strong> از <strong><span class="font-color-white">{{ count }}</span> شماره</strong> منتشر شده در سری <strong><span class="font-color-white">"{{ page.series }}"</span></strong> است.</p>
         <ul class="rtl-direction">
             {% assign count = '0' %}
             {% for post in site.posts reversed %}
