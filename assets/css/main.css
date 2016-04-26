@@ -179,6 +179,10 @@ h1, h2, h3, h4, h5, p {
   margin-bottom: 16px;
 }
 
+.margin-right-25px {
+  margin-right:25px;
+}
+
 .none-text-decoration-none-color{
   text-decoration: none;
 }
