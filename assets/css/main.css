@@ -548,6 +548,19 @@ h1, h2, h3, h4, h5, p {
   display: inline-block;
 }
 
+.alert {
+  background-color: #00040C;
+  border-right: 10px solid #FFF;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45em;
+  position: relative;
+  display: inline-block;
+}
+
 /*
   ========================================
   Buttons
