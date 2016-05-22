@@ -73,13 +73,11 @@ description: شاید وقتی برای اولین بار به برنامه نو
 <pre class="brush: cpp">
 // Some various data types which can be used to store points
 /****************************************************************************/
-// 1. an array of floats.  The advantage lies in speed, ease,
-//    and low memory cost
+// I. an array of floats.
 
 float 3dPoint[3];
 /****************************************************************************/
-// 2. a structure holding 3 floats. The advantage lies in the
-//    ability to overload operators and define functions
+// II. a structure holding 3 floats.
 
 struct 3dPoint
 {
@@ -99,7 +97,7 @@ struct 3dPoint
     }
 };
 /****************************************************************************/
-// Using this structure, adding two points is as simple as follows:
+// Using this structure, adding two points:
 
 3dPoint A, B, C;
 C = A + B;
