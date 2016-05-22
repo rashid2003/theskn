@@ -585,6 +585,8 @@ h1, h2, h3, h4, h5, p {
 .post-image {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
     display: block;
 }
 
