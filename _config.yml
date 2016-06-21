@@ -24,7 +24,7 @@ favicon: "favico.png"
 
 
 #outputting
-permalink: posts/:title.html
+permalink: :posts/:title.html
 
 # Build settings
 markdown: kramdown
