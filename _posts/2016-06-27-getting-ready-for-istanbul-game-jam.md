@@ -32,7 +32,7 @@ description: "نزدیک به دو روز به رویداد بازی‌سازی 
   <li class="margin-bottom-16px">[Conga Master](http://ludumdare.com/compo/2015/12/15/introducing-conga-master/) - Ludum Dare 34</li>
   <li class="margin-bottom-16px">[D.U.N.G.](http://globalgamejam.org/2016/games/dung) -  Global Game Jam 2016</li>
   <li class="margin-bottom-16px">[Frank & Stein](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=57424) - Ludum Dare 34</li>
-  <li class="margin-bottom-16px">[What does Sam do ?](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=64408) - Ludum Dare 34
+  <li class="margin-bottom-16px">[What does Sam do ?](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=64408) - Ludum Dare 34</li>
   <li class="margin-bottom-16px">[Happy Leaves](https://jonibigood.itch.io/happy-leaves)</li>
   <li class="margin-bottom-16px">[windowframe](https://managore.itch.io/windowframe) - Ludum Dare 35</li>
   <li class="margin-bottom-16px">[Valk Unit Lawyer](https://oz2mura.itch.io/valk-unit-lawyer) - Ludum Dare 34</li>
