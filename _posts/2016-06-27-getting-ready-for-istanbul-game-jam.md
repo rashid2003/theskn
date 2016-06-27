@@ -44,5 +44,7 @@ description: "نزدیک به دو روز به رویداد بازی‌سازی 
   <li class="margin-bottom-16px">[Just Another: Dungeon](http://globalgamejam.org/2016/games/just-another-dungeon) - Global Game Jam 2016</li>
   <li class="margin-bottom-16px">[HamsterX]()</li>
   <li class="margin-bottom-16px">[Left-Leaning](https://tayl1r.itch.io/left-leaning) - Ludum Dare 34</li>
+  </ul>
+  </div>
   
   لیست به روز رسانی خواهد شد.
