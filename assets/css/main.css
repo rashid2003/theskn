@@ -169,6 +169,10 @@ h1, h2, h3, h4, h5, p {
   font-family: Consolas, monaco, monospace;
 }
 
+.font-weight-bolder {
+	font-weight: bolder;
+}
+
 .none-text-decoration {
   color: #00CC00;
   text-decoration: none;
