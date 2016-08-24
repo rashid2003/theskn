@@ -21,10 +21,14 @@ description: "نزدیک به دو روز به رویداد بازی‌سازی 
 
 تصمیم دارم تا طی یکی دو ساعت پیش رو، بازی کنم و این بازی‌ها و تجربه و نظر خودم در مورد اونها رو هم با شما به اشتراک بذارم. اگر سرعت اینترنت اجازه می‌داد حتما دوست داشتم که این چند ساعت رو به صورت Live Streaming و از روی سرویسی مثل Twitch باهاتون به اشتراک بذارم.
 
+<span class="font-family-consolas font-weight-bolder">&gt;</span> به روز رسانی
+
 دقیقا بعد از نوشتن جمله بالا تصمیم گرفتم تا این کار رو امتحان کنم!
 
 هم اکنون می‌توانید از اینجا همراه من باشید:
 <iframe src="https://player.twitch.tv/?channel=kianooshn" frameborder="0" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/kianooshn?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from kianooshn on www.twitch.tv</a><
+
+<span class="font-family-consolas font-weight-bolder">&gt;</span> به روز رسانی
 
 و در نهایت در مدتی که با هم بودیم، بازی‌های زیر رو با هم بررسی کردیم:
 <div class="ltr-direction">
