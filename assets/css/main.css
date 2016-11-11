@@ -153,6 +153,10 @@ h1, h2, h3, h4, h5, p {
   text-align: center;
 }
 
+.center-bold {	
+  text-align: center;
+}
+
 .bg-color {
   background-color: #000;
 }
@@ -269,8 +273,17 @@ h1, h2, h3, h4, h5, p {
 
 }
 
+/* LAGACY CODE :))) */
 .sub-level-list {
   padding-left: 32px;
+}
+
+.sub-level-list-left {
+	padding-left: 32px;
+}
+
+.sub-level-list-right {
+	padding-right: 32px;
 }
 
 .list-style-type-persian {
