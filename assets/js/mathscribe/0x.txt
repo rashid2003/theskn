@@ -1,0 +1,4 @@
+I'm currentyl using mathscribe jqMath 0.4.6" version of the jqMath
+for more info you can visit [here](http://mathscribe.com/author/jqmath.html)
+
+theskn
