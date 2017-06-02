@@ -36,7 +36,7 @@ int main()
 و یا
 <div class="ltr-direction font-family-consolas">
 <pre class="brush: cpp">
-void main(
+void main()
 {
    // Code goes here...
 }
@@ -62,7 +62,7 @@ void main(
 مورد بعدی هم راجع به استفاده از برنامه‌های به شکل زیره:
 <div class="ltr-direction font-family-consolas">
 <pre class="brush: cpp">
-int main(
+int main()
 {
    // No return statement...
 }
