@@ -19,4 +19,4 @@ excerpt_separator: <!--more-->
 <span class="ltr-direction center font-weight-bolder">Save Net Neutrality</span>
 [<img class="post-image image-responsive" src="https://theskn.github.io/assets/img/2017-07-11/DOATWITTER.png"/>](https://drive.google.com/drive/folders/0B7iKho2OIeVzREZWSkRaenZwMFk)
 
-<span class="center">[download memes zip - for spread](http://kianooshnaghavi.com/NetNeutrality/)</span>
+<span class="center">[download memes zip - for spreading](http://kianooshnaghavi.com/NetNeutrality/)</span>
