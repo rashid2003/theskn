@@ -695,14 +695,42 @@ h1, h2, h3, h4, h5, p {
 
 }
 
+/*legacy code*/
 .post-inline-title {
   font-size: 36px;
   color: #CCCCCC;
+  font-weight: bold;
   padding-bottom: 25px;
   padding-top: 8px;
   line-height: normal;
 }
 
+.post-inline-header {
+  font-size: 36px;
+  color: #CCCCCC;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 8px;
+  line-height: normal;
+}
+
+.post-inline-subheader {
+  font-size: 36px;
+  color: #CCCCCC;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 8px;
+  line-height: normal;
+}
+
+.post-inline-subsubheader {
+  font-size: 36px;
+  color: #CCCCCC;
+  font-style: italic;
+  padding-bottom: 25px;
+  padding-top: 8px;
+  line-height: normal;
+}
 /*
   ========================================
   adjacent-post - <!-- footer content
