@@ -39,7 +39,7 @@ description: شاید وقتی برای اولین بار به برنامه نو
 بر روی محور y، مقادیر <span class="font-color-white">بالای</span> مرکز مختصات، <span class="font-color-white">مثبت</span> و مقادیر <span class="font-color-white">پایین</span>، <span class="font-color-white">منفی</span> هستند.
 
 محل یک نقطه در یک صفحه نیز با یک جفت عدد مشخص می‌شود، که عدد اول مشخص کننده محل نقطه روی محور x و عدد دوم مشخص کننده محل نقطه روی محور y است. برای مثال در نمودار بالا، نقطه A دارای مختصات (۴ ,۳) است و نقطه B در محل (۱ ,۲-) قرار گرفته است. توجه داشته باشید که ترتیب اعداد در این سیستم نمایش بسیار مهم است.
-<div class="post-inline-title">کاربرد هندسه تحلیلی</div>
+<div class="post-inline-subheader">کاربرد هندسه تحلیلی</div>
 دونستن محل قرار گیری تعدادی از نقاط به ما می‌تونه در موارد زیر کمک کنه:
 <ul class="top-level-list list-style-type-disc">
 <li class="margin-right-25px">تعیین فاصله بین نقاط</li>
@@ -119,7 +119,7 @@ C = A + B;
 
 به طور کلی می‌توانیم بگوییم که نمودار هر معادله به صورت <span>Ax + By = C</span> یک خط صاف است، اگر و فقط اگر هر دو مقدار <span>A</span> و <span>B</span> به طور همزمان برابر با صفر نباشند.
 
-<div class="post-inline-title">خصوصیات یک خط</div>
+<div class="post-inline-subheader">خصوصیات یک خط</div>
 یکی از مهمترین خصوصیات یک خط مقدار <span class="font-color-white">شیب</span> آن است. <span class="font-color-white">شیب</span> یک خط را می‌توانیم با تقسیم مقدار اختلاف ارتفاع بین دو نقطه آن بر اختلاف اندازه طولی متانظر بین آنها تعریف کنیم.
 
 برای مثال مهندسان راه و ساختمان برای محاسبه شیب بستر جاده، اختلاف ارتفاع مسیر جاده را بر مسافت متناظر در امتداد سطح افقی تقسیم می‌کنند و معمولا حاصل را به صورت درصدی بیان می‌کنند. برای اطلاعات عمومی بد نیست که بدانیم، معمولا در طول ساحل دریا، شیب مسیر خط آهن کمتر از ۲ درصد است و در نواحی کوهستانی ممکن است به ۴ درصد برسد و شیب بزرگراه‌ها نیز معمولا کمتر از ۵ درصد است.<img class="post-image image-responsive" src="https://theskn.github.io/assets/img/2016-04-22/ch001-slope-of-a-line.png"/>
@@ -143,7 +143,7 @@ C = A + B;
 </blackquote></p>
 به یاد داشت باشید که شیب خط مستقل از دو نقطه‌ای است که روی خط انتخاب می‌کنیم.
 
-<div class="post-inline-title">محاسبه شیب خط در کد</div>
+<div class="post-inline-subheader">محاسبه شیب خط در کد</div>
 برای محاسبه شیب خط بین دو نقطه، با توجه به تعریف نقاط در قسمت قبل در کد داریم:
 <div class="ltr-direction font-family-consolas">
 <pre class="brush: cpp">
@@ -167,18 +167,18 @@ float SlopeBetweenPoints(Point2d P1, Point2d P2)
 </pre>
 </div>
 
-<div class="post-inline-title">خطوط موازی</div>
+<div class="post-inline-subheader">خطوط موازی</div>
 فرض کنید دو خط زیر که حاصل از دو معادله <span>y = (۱&#47;۲)x + ۱</span> و <span>۳x + ۶y = -۱۲-</span> را داریم:
 <img class="post-image image-responsive" src="https://theskn.github.io/assets/img/2016-04-22/ch001-parallel-lines.png"/>
 شیب هر دو خط برابر با <span>۱&#47;۲</span> است، این دو خط را موازی می‌نامیم. در ریاضیات برای خطوط، تعریفی به نام <span class="font-color-white">زاویه میل</span> داریم. زاویه میل یک خط که محور xها را قطع می‌کند، کوچکترین زواویه‌ای است که اگر اندازه گیری را در خلاف عقربه‌های ساعت از محور x و در حول نقطه تقاطع انجام دهیم، به دست می‌آید. طبق این تعریف، شیب یک خط از مقدار <span>tan</span> این زاویه محاسبه می‌شود. پس می‌توان دو خط موازی را خطوطی در نظر گرفت که زاویه میل‌های آنها با هم برابر است.
 
-<div class="post-inline-title">خطوط عمود</div>
+<div class="post-inline-subheader">خطوط عمود</div>
 مورد دیگری که درباره وضعیت دو خط نسبت به هم، از روابط بین مقدار شیب این دو خط قابل بررسی است، عمود بودن دو خط بر هم است.
 دو خط عمود بر هم یا متعامد، خطوطی هستند که حاصلضرب شیب آنها در یکدیگر، همواره برابر با <span>۱-</span> باشد.
 <img class="post-image image-responsive" src="https://theskn.github.io/assets/img/2016-04-22/ch001-orthogonal-lines.png"/>
 شکل بالا وضعیت دو خط <span>y = (-۳&#47;۲)x + ۴</span> و <span>y = (۲&#47;۳)x + ۱</span> را نشان می‌دهد.
 
-<div class="post-inline-title">محاسبه شیب خط عمود در کد</div>
+<div class="post-inline-subheader">محاسبه شیب خط عمود در کد</div>
 برای محاسبه شیب خط عمود بر یک خط در کد، با استفاده از شیب حساب شده در قسمت قبلی می‌توانیم از تابع زیر استفاده کنیم:
 <div class="ltr-direction font-family-consolas">
 <pre class="brush: cpp">
@@ -210,7 +210,7 @@ bool ArePerpendicular(float slope1, float slope2)
 </pre>
 </div>
 
-<div class="post-inline-title">محاسبه معادله خط</div>
+<div class="post-inline-subheader">محاسبه معادله خط</div>
 اگر با دقت به شیب خطوطی که تا الان بدست آوردیم نگاه کنیم، متوجه می‌شویم که اگر برای همه معادلات این خطوط، فرم <span>Ax + By = C</span> را حالت استاندارد در نظر بگیریم، شیب این خطوط برابر با <span>m = -A/B</span> است. 
 
 مثلا در معادله <span>۲x + y = ۵</span> شیب خط برای مقادیر <span>A = ۲</span> و <span>B = ۱</span> برابر با <span>m = -A/B = -۲/۱ = -۲</span> است.
@@ -233,12 +233,12 @@ bool ArePerpendicular(float slope1, float slope2)
 
 هر چند بعدها به بررسی این مورد خواهیم پرداخت، اما یکی از مزایای دیگر معادله نقطه-شیب قابلیت استفاده از آن در فضای سه بعدی و بر روی بردارهاست.
 
-<div class="post-inline-title">نکات تکمیلی شیب خطوط</div>
+<div class="post-inline-subheader">نکات تکمیلی شیب خطوط</div>
 شیب خطوط می‌تواند اطلاعات مفید دیگری را هم در اختیار ما بگذارد، مثلا خطوطی که دارای <span class="font-color-white">شیب مثبت</span> هستند، خطوطی هستند که بر روی دستگاه مختصات و در حرکت از سمت چپ به سمت راست، دارای <span class="font-color-white">افزایش ارتقاع</span> هستند. به همین ترتیب خطوط دارای <span class="font-color-white">شیب منفی</span> در حرکت از سمت چپ به سمت راست صفحه مختصات با <span class="font-color-white">کاهش ارتفاع</span> همراه هستند. خطوطی که دارای <span class="font-color-white">شیب صفر</span> هستند، خطوط افقی هستند و خطوطی که دارای <span class="font-color-white">شیب تعریف</span> نشده هستند، خطوط عمودی هستند.
 
 <span class="font-family-consolas font-weight-bolder">&gt;</span> به روز رسانی
 
-<div class="post-inline-title">کاربردها در تشخیص برخورد</div>
+<div class="post-inline-subheader">کاربردها در تشخیص برخورد</div>
 یکی از حالاتی که در برنامه نویسی ممکن است برای ما پیش بیاید، تشخیص زمان یا حالتی است که در آن دو خط با هم برخورد دارند.
 این خطوط می‌توانند مشخص کننده وجوه یک جسم، سطح زمین و حتی مسیر حرکت یک شی باشند و معمولا ما قصد نوشتن کدی برای شرایطی داریم کخ در آن برخورد رخ می‌دهد.
 
