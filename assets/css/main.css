@@ -394,7 +394,6 @@ h1, h2, h3, h4, h5, p {
   padding-top: 8px;
   padding-bottom: 16px;
   border-bottom: 1px solid #00CC00;
-
 }
 
 .profiles-list {
@@ -408,7 +407,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 .soundcloud {
-
+  padding-top: 8px;
+  padding-bottom: 16px;
 }
 
 .profiles-list a:link, .profiles-list a:visited,
