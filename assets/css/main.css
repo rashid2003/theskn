@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, p {
 
 /*
   ========================================
-  Navigation, Profile lists - About
+  Navigation, Profile lists - About - Soundcloud
   ========================================
 */
 
@@ -393,6 +393,7 @@ h1, h2, h3, h4, h5, p {
 .profiles {
   padding-top: 8px;
   padding-bottom: 16px;
+  border-bottom: 1px solid #00CC00;
 
 }
 
@@ -404,6 +405,10 @@ h1, h2, h3, h4, h5, p {
 .profiles-list a {
   display: block;
   padding: 8px 0 8px 16px;
+}
+
+.soundcloud {
+
 }
 
 .profiles-list a:link, .profiles-list a:visited,
