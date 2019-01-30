@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rashid2003.github.io/theskn" # the base hostname & protocol for your site
 keywords: "علوم کامپیوتر,کامپیوتر,برنامه نویسی,بازیسازی,طراحی بازی,موسیقی"
 copyright: "Commons Attribution 4.0 International"
-robot: "" 
+robot: "https://rashid2003.github.io/theskn" 
 highlighter: rouge
 description: "وبلاگ شخصی کیانوش نقوی، اینجا محلی برای انتشار ایده‌ها، افکار و تجربیات روزانه‌ام در ارتباط با زمینه‌هایی است که در آنها فعالم"
 
