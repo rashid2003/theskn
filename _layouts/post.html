@@ -4,7 +4,7 @@ layout: default
 <div class="post">
 
   <header class="rtl-direction post-header">
-    <h2 class="blog-post-title"><a href="{{ page.url }}" rel="bookmark" title="Permanent Link to {{ page.title }}">❖ &nbsp; {{ page.title }}</a></h2>
+    <h2 class="blog-post-title"><a href="theskn/{{ page.url }}" rel="bookmark" title="Permanent Link to {{ page.title }}">❖ &nbsp; {{ page.title }}</a></h2>
     <small><span>
       <span class="blog-post-date"><span class="font-color-0c0">تازیخ انتشار: </span>{{ page.date | date: '%Y, %B, %d' }}</span> | 
       <span class="blog-post-tags underline-border"><span class="font-color-0c0">برچسب‌ها: </span>{% for tag in page.tags %}{% include tags.html %}{% endfor %}</span> | 
